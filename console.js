@@ -20,7 +20,6 @@ var console = function(o) {
 }
 
 (window.console);
-
 c = {
     l:function(o) { console.log(o) },
     i:function(o) { console.info(o) },

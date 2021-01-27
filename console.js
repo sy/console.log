@@ -1,4 +1,5 @@
 var console = function(o) {
+
     return {
         log : function(r) {
 			var css = "border-left: 4px #B1043E solid; padding-left: 10px; color: #B1043E; font-size: 12px; font-family: 'Monaco';";
@@ -17,6 +18,7 @@ var console = function(o) {
             o.error("%c" + r, css)
         }
     }
+    
 }
 
 (window.console);
